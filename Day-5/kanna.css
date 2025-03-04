@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container */
+#game-container {
+    width: 500px;
+    height: 600px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Player */
+#player {
+    width: 50px;
+    height: 50px;
+    background-color: #00f;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Score Display */
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Falling Blocks */
+.falling-block {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+}

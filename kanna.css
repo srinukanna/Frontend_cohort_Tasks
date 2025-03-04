@@ -1,0 +1,30 @@
+/* body{
+    background-color: aquamarine;
+} */
+.card {
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 300px;
+    width: 360px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+
+}
+
+h1{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid light black;
+
+
+}
+
+p {
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
