@@ -1,6 +1,7 @@
 body{
  margin:0;
  background-color: rgba(83, 84, 85, 0.887);
+
 }
 nav
 {
@@ -14,10 +15,10 @@ nav
     background-color:rgb(127, 128, 128);
 }
 nav img.logo{
-    margin: 0px;
+    margin: 30px;
     width:80px;
     height:80px;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .task_1
@@ -30,9 +31,5 @@ nav img.logo{
     border:1px solid whitesmoke;
     font-size: 15px;
     background-color:  rgb(231, 236, 231);
-}
-h1
-{
-  padding:0px;
-  margin:10px 3px;
+
 }
