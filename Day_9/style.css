@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.nav-bar {
+
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  
+
+}
+.hero_icon
+{
+    
+}
+
+.nav_options
+{
+    
+    margin-right:15%;
+    display:flex;
+    font-weight:bold;
+    align-items:center;
+    margin-left:30px;
+    gap:20px;
+}
+
+input {
+  border-radius: 25px;
+  border:2px solid whitesmoke;
+  height:50px;
+  font-size: 14px;
+  background-color: rgba(249, 246, 246, 0.933);
+  width: 450px;
+  padding-left:14px;
+}
+
+li {
+  list-style: none;
+}
+
+.search_bar {
+
+  display: flex;
+  align-items:center;
+  box-sizing: border-box;
+  margin:0px 30px;
+}
+
+.buttons {
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+
+.signup_btn {
+  padding: 3px;
+  font-weight:bold;
+}
+
+.Login_btn {
+  padding: 12px;
+  font-size:15px;
+  width:90px;
+  border-radius:20px;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width:769px) 
+{
+    .nav_options,.signup_btn{
+        display:none;
+    }
+
+    .Login_btn
+    {
+      margin-right:0px;
+    }
+    
+
+}
