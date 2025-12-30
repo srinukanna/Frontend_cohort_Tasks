@@ -1,0 +1,37 @@
+*
+{
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing:border-box;
+}
+
+.nav_container
+{
+    width:100%;
+    height:60px;
+    padding:0px 20px;
+    background-color: #8533ff;
+    color:white;
+   
+    
+}
+.nav_wrapper
+{ 
+    display:flex;
+    height:100%;
+    gap:20px;
+    align-items:center;
+}
+button{
+    border-radius:12px;
+    border:none;
+    color:rgb(14, 13, 13);
+    background-color: rgb(253, 251, 251);
+    padding:0px;
+    height:24px;
+    width:50px;
+}
+
+a{
+  all:unset;
+}

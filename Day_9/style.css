@@ -1,41 +1,41 @@
 body {
   margin: 0;
-  background-color: white;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:white;
+  box-sizing:border-box;
+  font-style:italic;
+
 }
 
 .nav-bar {
-
-  border-radius: 10px;
+  border-radius: 0px;
   width: 100%;
+  background-color: #04AA6D;
   padding: 20px 30px;
+  color:white;
   display: flex;
   box-sizing: border-box;
   align-items: center;
-  
-
 }
 
-
-
-.nav_options
-{
-    
-    margin-right:15%;
-    display:flex;
-    font-weight:bold;
-    align-items:center;
-    margin-left:30px;
-    gap:20px;
+.nav_options {
+  margin-right: 12%;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 30px;
+  gap: 20px;
 }
 
 input {
   border-radius: 25px;
-  border:2px solid whitesmoke;
-  height:50px;
+  position: relative;
+  border: 2px solid whitesmoke;
+  height: 50px;
   font-size: 14px;
   background-color: rgba(249, 246, 246, 0.933);
   width: 450px;
-  padding-left:14px;
+  padding-left: 14px;
 }
 
 li {
@@ -43,43 +43,44 @@ li {
 }
 
 .search_bar {
-
-  display: flex;
-  align-items:center;
-  box-sizing: border-box;
-  margin:0px 30px;
+   display: flex;
+   align-items: center;
+   gap:10px;
+   box-sizing: border-box;
+   margin: 0px 30px;
 }
 
 .buttons {
   display: flex;
-  gap:30px;
+  gap: 30px;
   align-items: center;
 }
 
 .signup_btn {
   padding: 3px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .Login_btn {
   padding: 12px;
-  font-size:15px;
-  width:90px;
-  border-radius:20px;
+  font-size: 15px;
+  width: 90px;
+  font-weight: bold;
+  border-radius: 20px;
   background-color: black;
   color: white;
 }
 
-@media only screen and (max-width:769px) 
-{
-    .nav_options,.signup_btn{
-        display:none;
-    }
 
-    .Login_btn
-    {
-      margin-right:0px;
-    }
-    
 
+@media only screen and (max-width: 769px) {
+  .nav_options,
+  .signup_btn {
+    display: none;
+  }
+
+  .Login_btn {
+    margin-right: 0px;
+  }
 }
+
